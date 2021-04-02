@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #333339;
+}
+
+.contact-info {
+  position: fixed;
+  top: 40%;
+  z-index: 99999;
+  left: 0;
+}
+
+.option {
+  cursor: pointer;
+  position: relative;
+}
+
+.option i{
+  display: block;
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  background: #f2f2f2;
+  color: #b9b9b9;
+  font-size: 20px;
+  transition: .6s;
+}
+
+.option:hover i{
+  color: #3498db;
+}
+
+.text {
+  position: absolute;
+  height: 60px;
+  width: 200px;
+  background: #1b1b1b;
+  top: 0;
+  z-index: -1;
+  left: -140px;
+  color: #f2f2f2;
+  line-height: 60px;
+  text-align: center;
+  transition: .6s;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.option:hover .text {
+  left: 60px;
+}
